@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "egg_segmentation_size"
-version = "0.1.0"
+version = "0.2.0"
 description = "This repo segments the eggs in images and gives an estimation for their sizes"
 authors = ["Afshin Dini <Afshin Dini>"]
 readme = "README.md"
