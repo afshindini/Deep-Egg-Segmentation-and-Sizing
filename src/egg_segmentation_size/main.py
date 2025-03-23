@@ -13,9 +13,8 @@ logger = logging.getLogger(__name__)
 
 @click.command()
 @click.version_option(version=__version__)
-@click.option("-l", "--log_path", type=str, help="Path to save log file")
 @click.option("-v", "--verbose", count=True, help="Shorthand for info/debug/warning/error loglevel (-v/-vv/-vvv/-vvvv)")
-def egg_segmentation_size_cli(log_path: str, verbose: int) -> None:
+def egg_segmentation_size_cli(verbose: int) -> None:
     """This repo segments the eggs in images and gives an estimation for their sizes """
     if verbose == 1:
         log_level = 10
@@ -25,6 +24,6 @@ def egg_segmentation_size_cli(log_path: str, verbose: int) -> None:
         log_level = 30
     else:
         log_level = 40
-    config_logger(log_level, log_path)
+    config_logger(log_level)
 
     click.echo("Run the main code.")
