@@ -41,6 +41,7 @@ click = "^8.1.7"
 ultralytics = "^8.3.94"
 streamlit = "^1.43.2"
 opencv-python = "^4.11.0.86"
+pandas = "^2.2.3"
 
 
 [tool.poetry.group.dev.dependencies]
