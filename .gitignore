@@ -1,8 +1,13 @@
 # Pycharm files
 .idea/
+src/egg_segmentation_size/__pycache__/
 
 # poetry
 poetry.lock
+
+# data files
+src/egg_segmentation_size/data/
+src/egg_segmentation_size/model/
 
 # Unit test files
 .coverage
@@ -18,7 +23,3 @@ poetry.lock
 .venv
 env/
 venv/
-
-
-
-

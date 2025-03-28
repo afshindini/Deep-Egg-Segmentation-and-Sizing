@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "egg_segmentation_size"
-version = "0.1.0"
+version = "0.2.0"
 description = "This repo segments the eggs in images and gives an estimation for their sizes"
 authors = ["Afshin Dini <Afshin Dini>"]
 readme = "README.md"
@@ -38,6 +38,10 @@ branch = true
 [tool.poetry.dependencies]
 python = "^3.10"
 click = "^8.1.7"
+ultralytics = "^8.3.94"
+streamlit = "^1.43.2"
+opencv-python = "^4.11.0.86"
+pandas = "^2.2.3"
 
 
 [tool.poetry.group.dev.dependencies]
