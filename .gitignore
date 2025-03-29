@@ -8,12 +8,14 @@ poetry.lock
 # data files
 src/egg_segmentation_size/data/
 src/egg_segmentation_size/model/
+results/sample1.jpg
 
 # Unit test files
 .coverage
 .coverage.*
 .cache
 .pytest_cache/
+tests/__pycache__/
 
 # mypy files
 .mypy_cache/
