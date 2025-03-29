@@ -7,7 +7,6 @@ poetry.lock
 
 # data files
 src/egg_segmentation_size/data/
-src/egg_segmentation_size/model/
 
 # Unit test files
 .coverage
