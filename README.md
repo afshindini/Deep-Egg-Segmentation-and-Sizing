@@ -3,7 +3,7 @@ title: Deep Egg Segmentation And Sizing
 emoji: 🥚📏
 colorFrom: gray
 colorTo: indigo
-sdk: streamlit[README.md](..%2FEgg-Instance-Segmentation%2FEgg-Instance-Segmentation%2FREADME.md)
+sdk: streamlit
 sdk_version: 1.43.2
 app_file: app.py
 pinned: false
